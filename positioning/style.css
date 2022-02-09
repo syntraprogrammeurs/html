@@ -1,0 +1,49 @@
+#boxes{ /*parent*/
+    position:relative;
+}
+.box {
+    height: 200px;
+    width: 200px;
+    background: red;
+    border: 1px solid black;
+    position:absolute;
+    top:10px;
+    right:10px;
+}
+#box1{
+    z-index:10;
+}
+#box2{ /*child*/
+    background:yellow;
+    position:absolute;
+    top:20px;
+    right:20px;
+    z-index:0;
+}
+#box3{
+    background: orange;
+    position:absolute;
+    top:30px;
+    right:20px;
+    z-index:30;
+}
+#newbox1{
+    height: 200px;
+    width: 200px;
+    background: green;
+    border: 1px solid black;
+    float:left;
+}
+#newbox2{
+    height: 200px;
+    width: 200px;
+    background: blue;
+    border: 1px solid black;
+    float:right;
+}
+#floatingbox{
+    width:600px;
+    height:210px;
+    border:1px solid black;
+}
+
