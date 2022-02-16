@@ -1,0 +1,70 @@
+/** GENERAL **/
+*{
+    box-sizing:border-box;
+    margin:0px;
+    padding:0px;
+}
+/** SPACING **/
+.py-1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.px-1{
+    padding-left:50px;
+    padding-right:50px;
+}
+.pr-1{
+    padding-right:110px;
+}
+.m-0{
+    margin:0px;
+}
+.w-50 {
+    width: 50%;
+}
+.line-height-2{
+    line-height: 3;
+}
+
+/** ALIGNMENT **/
+.text-center{
+    text-align: center;
+}
+/** FLEXBOX **/
+.d-flex{
+    display:flex;
+}
+.justify-content-between{
+    justify-content:space-between;
+}
+.justify-content-around{
+    justify-content:space-around;
+}
+.align-items-center{
+    align-items:center;
+}
+li{
+    list-style-type:none;
+    margin-right:10px;
+}
+a:hover{
+    background:red;
+    color:white;
+}
+a{
+    text-decoration:none;
+}
+tr:nth-child(even){
+    background:grey;
+}
+tr:nth-child(1){
+    background:red;
+    color:white;
+}
+tr:nth-last-child(2){
+    background:yellow;
+}
+tr:hover{
+    background:orange;
+    cursor:pointer;
+}
