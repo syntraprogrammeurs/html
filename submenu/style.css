@@ -1,0 +1,125 @@
+/** GENERAL **/
+*{
+    box-sizing:border-box;
+    margin:0px;
+    padding:0px;
+}
+h2{
+    padding:30px 0px;
+    font-size:42px;
+}
+h3{
+    padding-top:30px;
+    padding-bottom:15px;
+}
+/** COLORS **/
+.bgblue{
+    background:rgba(80,148,242,1);
+}
+.text-blue{
+    color:rgba(80,148,242,1);
+}
+.text-grey{
+    color:rgba(111,113,115,1);
+}
+.bgred{
+    background:rgba(217,71,72,1);
+}
+.bgyellow{
+    background:rgba(235,187,17,1);
+}
+/** FONTS **/
+@font-face {
+    font-family: myriadpro;
+    src: url('../webfonts/MYRIADPRO-REGULAR.woff');
+}
+@font-face {
+    font-family: Segoe;
+    src: url('../webfonts/SegoeWPN.woff');
+}
+body{
+    width:1250px;
+    margin: 0 auto;
+    font-family: Segoe, Arial;
+
+}
+header{
+    font-family:myriadpro, Arial;
+}
+
+/** SPACING **/
+.py-1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.px-1{
+    padding-left:50px;
+    padding-right:50px;
+}
+.pr-1{
+    padding-right:110px;
+}
+.m-0{
+    margin:0px;
+}
+.w-50 {
+    width: 50%;
+}
+.line-height-2{
+    line-height: 3;
+}
+/*STYLING*/
+.text-decoration-none{
+    text-decoration: none;
+}
+.list-style-type-none{
+    list-style-type: none;
+}
+/** ALIGNMENT **/
+.text-center{
+    text-align: center;
+}
+/** FLEXBOX **/
+.d-flex{
+    display:flex;
+}
+.flex-column{
+    flex-direction: column;
+}
+.justify-content-between{
+    justify-content:space-between;
+}
+.justify-content-around{
+    justify-content:space-around;
+}
+.align-items-center{
+    align-items:center;
+}
+
+
+/** FOOTER **/
+
+
+ul >li{
+    position:relative;
+}
+.submenu{
+    display:none;
+    position:absolute;
+    top:18px;
+    left:0;
+    z-index:5;
+    background:blue;
+    width:500px;
+}
+.submenu a{
+    color:white;
+}
+ul > li:hover .submenu{
+    display:block;
+}
+.submenu li:hover{
+    background:yellow;
+    width:500px;
+}
+
