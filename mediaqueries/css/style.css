@@ -1,0 +1,79 @@
+/*** MOBILE FIRST ***/
+
+/**BEGIN GENERAL CLASSES**/
+*{
+    box-sizing: border-box;
+}
+.d-flex{
+    display:flex;
+}
+.flex-column{
+    flex-direction:column;
+}
+.flex-row{
+    flex-direction:row;
+}
+/*horizontaal positioneren van children binnen de parent*/
+justify-content-start{
+    justify-content:flex-start;
+}
+.justify-content-end{
+    justify-content:flex-end;
+}
+.justify-content-center{
+    justify-content:center;
+}
+.justify-content-between{
+    justify-content:space-between;
+}
+.justify-content-around{
+    justify-content:space-around;
+}
+h1{
+    color:red;
+    font-size:10px;
+}
+
+/*** BIGGER THEN MOBILE***/
+/** MEDIA QUERIES **/
+
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+    h1{
+        color:orange;
+
+    }
+    .flex-sm-row{
+        flex-direction:row;
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    h1{
+        color:green;
+
+    }
+    .flex-md-column{
+        flex-direction:column;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    h1{
+        color:blue;
+        font-size:40px;
+    }
+
+}
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { }
+
+/* XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+
+}
